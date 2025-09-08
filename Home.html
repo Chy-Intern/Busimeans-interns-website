@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home - Software Company</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+  <a href="home.html" class="logo">Software<span>Company</span></a>
+  <nav class="navbar">
+    <a href="home.html">home</a>
+    <a href="about.html">about</a>
+    <a href="services.html">services</a>
+    <a href="projects.html">projects</a>
+    <a href="pricing.html">pricing</a>
+    <a href="contact.html">contact</a>
+  </nav>
+</header>
+
+<!-- Home Section -->
+<section class="home">
+  <div class="swiper home-slider">
+    <div class="swiper-wrapper">
+      <section class="swiper-slide" style="background: url(images/BG1.png) no-repeat center/cover;">
+        <div class="content">
+          <h3>Innovating Your Digital Future</h3>
+          <p>Elevate your business with cutting-edge web development, mobile apps, and AI solutions.</p>
+          <a href="about.html" class="btn">get started</a>
+        </div>
+      </section>
+      <section class="swiper-slide" style="background: url(images/BG2.png) no-repeat center/cover;">
+        <div class="content">
+          <h3>Where Technology Meets Vision</h3>
+          <p>Tailored IT solutions that fit your unique business needs.</p>
+          <a href="about.html" class="btn">get started</a>
+        </div>
+      </section>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</section>
+
+<!-- Footer -->
+<section class="footer">
+  <div class="links">
+    <a href="home.html">home</a>
+    <a href="about.html">about</a>
+    <a href="services.html">services</a>
+    <a href="projects.html">projects</a>
+    <a href="pricing.html">pricing</a>
+    <a href="contact.html">contact</a>
+  </div>
+  <div class="credit">
+    created by <span>Sherwin Vishesh Jathanna</span> | all rights reserved!
+  </div>
+</section>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script>
+  var swiper = new Swiper(".home-slider", { navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" } });
+</script>
+</body>
+</html>
