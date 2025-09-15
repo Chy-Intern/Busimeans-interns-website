@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 </head>
+
 <body>
 
 <!-- Header -->
@@ -24,17 +25,42 @@
 </header>
 
 <!-- Home Section -->
+<section class="Hero">
+  <div class="heroMessage" >
+    <div class="heroMotto" >
+      <p class="head">
+        Streamline Your Workflow. Accelerate Your Growth.
+      </p>
+      <p class="tail">
+        The all-in-one platform to simplify and grow your business. Reliable software solutions designed to help your business thrive. Automate tasks, boost productivity, and scale with ease.
+      </p>
+      <button class="btn">Join the Workflow</button>
+    </div>
+
+
+    
+  </div>
+</section>
+
+
 <section class="home">
   <div class="swiper home-slider">
     <div class="swiper-wrapper">
-      <section class="swiper-slide" style="background: url(images/BG1.png) no-repeat center/cover;">
+      <section class="swiper-slide" style="background: url(/Busimeans-interns-website/images/laptop.jpg) no-repeat center/cover;">
         <div class="content">
           <h3>Innovating Your Digital Future</h3>
-          <p>Elevate your business with cutting-edge web development, mobile apps, and AI solutions.</p>
+          <p>Elevate your business with cutting-edge web development and AI solutions.</p>
           <a href="about.html" class="btn">Get started</a>
         </div>
       </section>
-      <section class="swiper-slide" style="background: url(images/BG2.png) no-repeat center/cover;">
+      <section class="swiper-slide" style="background: url(/Busimeans-interns-website/images/howToStartTechCompany_main.png) no-repeat center/cover;">
+        <div class="content">
+          <h3>Where Technology Meets Vision</h3>
+          <p>Tailored IT solutions that fit your unique business needs.</p>
+          <a href="about.html" class="btn">get started</a>
+        </div>
+      </section>
+      <section class="swiper-slide" style="background: url(/Busimeans-interns-website/images/it_worker-small.jpg) no-repeat center/cover;">
         <div class="content">
           <h3>Where Technology Meets Vision</h3>
           <p>Tailored IT solutions that fit your unique business needs.</p>
@@ -46,6 +72,66 @@
     <div class="swiper-button-prev"></div>
   </div>
 </section>
+
+
+<section class="GetInvolved">
+  <div class="welcome">
+    <h1 style="font-size: 50px;" >Get Involved</h1>
+    <p>Join our mission to create positive change through technology. There are many ways to engage with our community.</p>
+  </div>
+
+  <div class="application">
+    <div class="apply">
+      <div class="students" >
+        <ion-icon name="school-outline"></ion-icon> For Students/Interns
+      </div>
+      <div style="padding: 0px 10px;">
+        <ul  >
+          <li><ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>Apply to our internship programs</li>
+          <li><ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>Atttend Workshops and Events</li>
+          <li><ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>Join student-led projects</li>
+          <li><ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>Access Learning Resources</li>
+        </ul>
+        <button class="btn">Get Sarted</button>
+      </div>
+    </div>
+
+    <div class="apply">
+      <div class="students">
+        <ion-icon name="code"></ion-icon> For Engineers
+      </div>
+      <div style="padding: 0px 5px;">
+        <ul >
+          <li><ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>Apply to our training programs</li>
+          <li><ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>Atttend Workshops and Events</li>
+          <li><ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>Join student-led projects</li>
+          <li><ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>Access Learning Resources</li>
+        </ul>
+        <button class="btn">Get Sarted</button>
+      </div>
+    </div>
+
+    <div class="apply">
+      <div class="students">
+        <ion-icon name="people-outline"></ion-icon> For Partners
+      </div>
+      <div style="padding: 0px 5px;">
+        <ul >
+          <li><ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>Apply to our training programs</li>
+          <li><ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>Atttend Workshops and Events</li>
+          <li><ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>Join student-led projects</li>
+          <li><ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>Access Learning Resources</li>
+        </ul>
+        <button  class="btn">Get Sarted</button>
+      </div>
+    </div>
+
+  </div>
+
+
+</section>
+
+
 
 <!-- Footer -->
 <section class="footer">
@@ -64,7 +150,19 @@
 
 <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 <script>
-  var swiper = new Swiper(".home-slider", { navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" } });
+  var swiper = new Swiper(".home-slider", {
+
+  loop:true,
+  autoplay: {delay:4000},
+
+  navigation: { 
+  nextEl: ".swiper-button-next", 
+  prevEl: ".swiper-button-prev" } 
+
+  });
 </script>
-</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body
+
 </html>
