@@ -37,9 +37,7 @@
       <button class="btn">Join the Workflow</button>
     </div>
 
-    <div class="heroImage">
-      <img src="./images/Key.png" height="700px" width="100%" style="background-size: cover; background-position: center; background-repeat: no-repeat; border-radius: 50px;" alt="">
-    </div>
+
     
   </div>
 </section>
@@ -87,12 +85,12 @@
       <div class="students" >
         <ion-icon name="school-outline"></ion-icon> For Students/Interns
       </div>
-      <div style="padding: 0px 5px;">
+      <div style="padding: 0px 10px;">
         <ul  >
-          <li>Apply to our internship programs</li>
-          <li>Atttend Workshops and Events</li>
-          <li>Join student-led projects</li>
-          <li>Access Learning Resources</li>
+          <li><ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>Apply to our internship programs</li>
+          <li><ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>Atttend Workshops and Events</li>
+          <li><ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>Join student-led projects</li>
+          <li><ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>Access Learning Resources</li>
         </ul>
         <button class="btn">Get Sarted</button>
       </div>
@@ -100,18 +98,34 @@
 
     <div class="apply">
       <div class="students">
-        <ion-icon name="people-outline"></ion-icon> For Students
+        <ion-icon name="code"></ion-icon> For Engineers
       </div>
       <div style="padding: 0px 5px;">
         <ul >
-          <li>Apply to our training programs</li>
-          <li>Atttend Workshops and Events</li>
-          <li>Join student-led projects</li>
-          <li>Access Learning Resources</li>
+          <li><ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>Apply to our training programs</li>
+          <li><ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>Atttend Workshops and Events</li>
+          <li><ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>Join student-led projects</li>
+          <li><ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>Access Learning Resources</li>
         </ul>
         <button class="btn">Get Sarted</button>
       </div>
     </div>
+
+    <div class="apply">
+      <div class="students">
+        <ion-icon name="people-outline"></ion-icon> For Partners
+      </div>
+      <div style="padding: 0px 5px;">
+        <ul >
+          <li><ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>Apply to our training programs</li>
+          <li><ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>Atttend Workshops and Events</li>
+          <li><ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>Join student-led projects</li>
+          <li><ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>Access Learning Resources</li>
+        </ul>
+        <button  class="btn">Get Sarted</button>
+      </div>
+    </div>
+
   </div>
 
 
@@ -139,6 +153,7 @@
   var swiper = new Swiper(".home-slider", {
 
   loop:true,
+  autoplay: {delay:4000},
 
   navigation: { 
   nextEl: ".swiper-button-next", 
