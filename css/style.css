@@ -156,7 +156,64 @@ li{
   color: green;
 }
 
-@media (max-width: 800px){
+.mainContact{
+  text-align: center;
+}
+
+form{
+  border: 1px solid black;
+  padding: 5%;
+  border-radius: 15px;
+}
+.info{
+  display: flex;
+  padding-left: 5%;
+  padding-right: 5%;
+  gap: 2%;
+}
+.email{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+.but{
+  height: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.but:hover{
+  background-color: #FFA500;
+}
+.message{
+  width: 40%;
+}
+
+.location{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.area{
+  border: 1px solid black;
+  padding: 2%;
+  border-radius: 9px;
+}
+
+.secondly{
+  border: 1px solid black;
+  padding: 2%;
+  border-radius: 9px;
+}
+
+@media (max-width: 820px){
   .application{
     flex-direction: column;
     gap: 50px;
