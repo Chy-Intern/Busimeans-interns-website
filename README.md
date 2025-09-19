@@ -2,7 +2,8 @@
 - **Home.html** – Homepage with slider  
 - **About.html** – About Us section  
 - **Services.html** – Services page  
-- **Contact.html** – Contact form and map  
+- **Contact.html** – Contact form and map
+- **Reviews.html** – Reviews page 
 - **css/style.css** – Shared styles  
 - **js/script.js** – Shared JavaScript (sliders, animations, etc.)  
 - **images/** – All image assets  
