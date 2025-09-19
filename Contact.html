@@ -24,23 +24,93 @@
 
 <!-- Contact Section -->
 <section class="contact">
-  <h1 class="heading">Contact Us</h1>
-  <div class="row">
-    <iframe
-      class="map"
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106598.4289583495!2d-111.92810105000001!3d33.3919224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b0898a6aa80e3%3A0xa2dd4aad392cb41f!2sTempe%2C%20AZ!5e0!3m2!1sen!2sus!4v1706301453151!5m2!1sen!2sus"
-      allowfullscreen=""
-      loading="lazy"
-    ></iframe>
+  <div class="mainContact">
+    <h1 style="font-size: 50px;" >Contact Us</h1>
+    <p>Have questions or want to learn more about our programs? We'd love to hear from you.</p>
+  </div>
 
-    <form action="">
-      <h3>Get in Touch</h3>
-      <input type="text" placeholder="Name" class="box" />
-      <input type="email" placeholder="Email" class="box" />
-      <input type="number" placeholder="Phone" class="box" />
-      <textarea placeholder="Message" class="box" cols="30" rows="10"></textarea>
-      <input type="submit" value="Send Message" class="btn" />
-    </form>
+  <div class="info">
+    <div class="message">
+      <form action="/submit">
+        <div style="text-align: center;">
+          <h2>Send Us A Message</h2>
+          <p style="opacity: 0.7;">Fill out the form below and we'll get back to you as soon as possible.</p>
+        </div>
+        <div class="email">
+          <div style="display: flex; flex-direction: column; justify-content: space-between;">
+            <div style="display: flex; flex-direction: column;">
+              <label for="first name">First Name</label>
+              <input placeholder="John" style="height: 25px; border-radius: 5px; opacity: 0.4;" type="text">
+            </div>
+            <div style="display: flex; flex-direction: column;">
+              <label for="last name">Last Name</label>
+              <input placeholder="Doe" style="height: 25px; border-radius: 5px; opacity: 0.4;" type="text">
+            </div>
+          </div>
+          <label for="email">Email</label>
+          <input placeholder="johndoe@gmail.com" style="height: 25px; border-radius: 5px; opacity: 0.4;" type="email">
+          <label for="interest">I'm interested in</label>
+          <select style="height: 30px;" name="" id="">
+            <option  value="">Partnerships</option>
+            <option value="">Internship</option>
+            <option value="">Engineer</option>
+            <option value="">Other</option>
+          </select>
+          <label for="">Message</label>
+          <textarea placeholder="How can we help you?" style="height: 100px; resize: none; margin-bottom: 5%;" name="" id=""></textarea>
+          <input class="but" type="submit">
+
+        </div>
+      </form>
+    </div>
+
+    <div class="location">
+      <div class="area">
+        <h3>Our Locations</h3>
+        <div >
+          <div >
+            <h4>Africa</h4>
+            <p>UG (Accra), Ghana</p>
+            <p>KNUST (Kumasi), Ghana</p>
+          </div>
+        </div>
+
+        <div>
+          <div>
+            <h4>Europe Hub</h4>
+            <p>42, Tech Boulevard</p>
+            <p>Lille, France</p>
+          </div>
+        </div>
+        
+      </div>
+      
+      <div class="secondly">
+        <h3>Contact Information</h3>
+        <div>
+          <div>
+            <h4>Email</h4>
+            <p>headoffice@xcuxion.org</p>
+            <p>school@xcuxion.org</p>
+          </div>
+        </div>
+
+        <div>
+          <div>
+            <h4>Phone</h4>
+            <p>(+233) 595391226 / (+33) 75927298474 / (+233) 2428488444</p>
+          </div>
+        </div>        
+
+        <div>
+          <div>
+            <h4>Hours</h4>
+            <p>Monday - Friday: 9AM-6PM (GMT)</p>
+          </div>
+        </div>        
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -59,5 +129,7 @@
   </div>
 </section>
 
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
